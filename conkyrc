@@ -1,0 +1,9 @@
+out_to_console yes
+out_to_x no
+background no
+update_interval 2
+total_run_times 0
+use_spacer none
+
+TEXT
+[1BTC/$$${exec /home/nick/scripts/bitcoin_ticker}]     [BAT ${battery_percent BAT}%]     [CPU ${cpu cpu0}%]     [RAM ${memperc}%]     [HDD ${diskio /dev/sda}]     [Rx ${downspeed wlp3s0}]     [Tx ${upspeed wlp3s0}]     [${time %a %b %d %Y}]     [${time %I:%M %p}]
